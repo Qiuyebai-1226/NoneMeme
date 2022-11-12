@@ -1,6 +1,6 @@
 import config from "./config.js"
 
-const development = location.host.search(/.+\.github\.io/) === -1
+// const development = location.host.search(/.+\.github\.io/) === -1
 const domParser = new DOMParser()
 /** @type {string[]} */
 let items = []
@@ -119,14 +119,14 @@ async function initgallery() {
      */
 
     // 开发环境(使用 live server)
-    if (development) {
-        for (const i of domParser.parseFromString((await get('../meme/')).response, 'text/html').querySelectorAll('#files a.icon-image')) {
-            items.push(decodeURIComponent(i.href.match(/(?<=meme\/).+\.(jpg|png|jfif|webp|gif)/)[0]))
-        }
+    // if (development) {
+    //     for (const i of domParser.parseFromString((await get('../meme/')).response, 'text/html').querySelectorAll('#files a.icon-image')) {
+    //         items.push(decodeURIComponent(i.href.match(/(?<=meme\/).+\.(jpg|png|jfif|webp|gif)/)[0]))
+    //     }
 
-        // 生产环境(使用静态文件)
-    } else items = config.items
-
+    //     // 生产环境(使用静态文件)
+    // } else items = config.items
+    items = config.items
     initgallery()
     window.addEventListener('hashchange', view)
 })()
