@@ -21,6 +21,13 @@ export default {
     "meme/哭了.jpg",
     "meme/赛博对象.jpg",
     "meme/双性恋.jpg",
-    "meme/天堂.jpg"
+    "meme/天堂.jpg",
+    "meme/boy~next~door.jpg",
+    "meme/kkp.jpg",
+    "meme/博爱珺珩.jpg",
+    "meme/骂我.jpg",
+    "meme/没那味.jpg",
+    "meme/弱受.jpg",
+    "meme/骚话载入失败.jpg",
   ]
 }
