@@ -29,7 +29,7 @@ export default {
     "meme/没那味.jpg",
     "meme/弱受.jpg",
     "meme/骚话载入失败.jpg",
-    "meme/鸭式标准.jpg",
+    "meme/鸭氏标准.jpg",
     "meme/病娇.jpg",
     "meme/隐藏萝莉.jpg",
     "meme/再起不能.jpg",
