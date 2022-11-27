@@ -49,5 +49,9 @@ export default {
     "meme/未养成女装大佬.jpg",
     "meme/满汉全席.jpg",
     "meme/装嫩的老阿姨.jpg",
+    "meme/姐姐和妹妹.jpg",
+    "meme/真有你们的.jpg",
+    "meme/妖精幻想.jpg",
+    "meme/自我破功.jpg",
   ]
 }
